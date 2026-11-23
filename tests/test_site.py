@@ -24,7 +24,7 @@ def driver():
 
 def test_page_title(driver):
     driver.get(BASE_URL)
-    assert driver.title == "INTENTIONALLY WRONG TITLE"
+    assert driver.title == "Talal | FA23-BCT-051"
 
 def test_heading(driver):
     driver.get(BASE_URL)
